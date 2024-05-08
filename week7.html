@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<title>Flexbox & Grid Blog</title>
-		<link
-			rel="stylesheet"
-			href="styles.css"
-		/>
-	</head>
-	<body>
-		<header>
-			<h1>My Blog</h1>
-			<nav>
-				<ul>
-					<li><a href="#blog1">Blog Post 1</a></li>
-					<li><a href="#blog2">Blog Post 2</a></li>
-					<li><a href="#blog3">Blog Post 3</a></li>
-				</ul>
-			</nav>
-		</header>
-		<main>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Flexbox & Grid Blog</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+	<header>
+		<h1>My Blog</h1>
+		<nav class="main-nav">
+			<ul>
+				<li><a href="#blog1">Blog Post 1</a></li>
+				<li><a href="#blog2">Blog Post 2</a></li>
+				<li><a href="#blog3">Blog Post 3</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="main-content">
 			<article id="blog1">
 				<h2>Blog Post Title 1</h2>
 				<p>
@@ -59,11 +56,40 @@
 				</p>
 				<a href="#">Read more</a>
 			</article>
-		</main>
-		<footer>
-			<p>&copy; 2024 My Blog</p>
-		</footer>
+		</section>
+		<aside id="side-content">
+			<h1>Quick Links</h1>
+			<div class="blog-links">
+				<h2>Featured Blogs</h2>
+					<ul>
+						<li><a href="#blog3">Blog Post 3</a></li>
+						<li><a href="#blog2">Blog Post 2</a></li>
+						<li><a href="#blog1">Blog Post 1</a></li>
+					</ul>
+			</div>
+			<div class="blog-links">
+				<h2>Popular Blogs</h2>
+					<ul>
+						<li><a href="#blog5">Blog Post 5</a></li>
+						<li><a href="#blog4">Blog Post 4</a></li>
+						<li><a href="#blog6">Blog Post 6</a></li>
+					</ul>
+			</div>
+			<div class="blog-links">
+					<h2>Newestest Blogs</h2>
+					<ul>
+						<li><a href="#blog9">Blog Post 9</a></li>
+						<li><a href="#blog8">Blog Post 8</a></li>
+						<li><a href="#blog7">Blog Post 7</a></li>
+					</ul>
+			</div>
+		</aside>
+	</main>
+	<footer>
+		<p>&copy; 2024 My Blog</p>
+	</footer>
 
-		<script src="script.js"></script>
-	</body>
+	<script src="script.js"></script>
+</body>
+
 </html>
