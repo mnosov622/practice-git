@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+.main-nav {
+    display: flex;
+}
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    gap: 10px;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+}

@@ -1,0 +1,19 @@
+#main-content { grid-area: main; }
+#side-content { grid-area: right; }
+
+
+ .grid-container{
+    display: grid;
+    grid-template-areas:
+
+    'main main main main right right';
+
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container > main {
+
+    text-align: center;
+    padding: 20px 0;
+}

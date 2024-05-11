@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>My Blog</title>
+	<link rel="stylesheet" href="styles/core.css" />
+</head>
+
+<body>
+   <header class="bg-body-tertiary">
+	   <a class="navbar-brand" href="#"><h1>My Blog</h1></a>
+	<nav class="main-nav navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<li class="nav-item"><a class="nav-link" href="#blog1"><i class="bi bi-pencil-square"></i> Blog Post 1</a></li>
+			<li class="nav-item"><a class="nav-link" href="#blog2"><i class="bi bi-pencil-square"></i> Blog Post 2</a></li>
+			<li class="nav-item"><a class="nav-link" href="#blog3"><i class="bi bi-pencil-square"></i> Blog Post 3</a></li>
+		</ul>
+			<form class="d-flex" role="search">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-primary">Search</button>
+			</form>
+			</div>
+				</div>
+	</nav>
+
+
+  </header>
+
+	<main class="grid-container">
+		<section id="main-content">
+			<article class="card" id="blog1">
+				<img src="assets/blog1img.jpg" class="card-img-top" alt="caption"/>
+				<div class="card-body">
+				<h2>Blog Post 1</h2>
+				<p class="card-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id augue vel ex maximus consequat. Nullam scelerisque vestibulum malesuada.
+				</p>
+					<a href="#" class="btn btn-primary">Read More</a>
+				</div>
+			</article>
+			<article class="card" id="blog2">
+				<img src="assets/blog2img.jpg" class="card-img-top" alt="caption"/>
+				<div class="card-body">
+					<h2>Blog Post 2</h2>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id augue vel ex maximus consequat. Nullam scelerisque vestibulum malesuada.
+					</p>
+					<a href="#" class="btn btn-primary">Read More</a>
+				</div>
+			</article>
+			<article class="card" id="blog3">
+				<img src="assets/blog3img.jpg" class="card-img-top" alt="caption"/>
+				<div class="card-body">
+					<h2>Blog Post 3</h2>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id augue vel ex maximus consequat. Nullam scelerisque vestibulum malesuada.
+					</p>
+					<a href="#" class="btn btn-primary">Read More</a>
+				</div>
+			</article>
+		</section>
+		<aside id="side-content">
+			<h2>Quick Links</h2>
+			<h3><i class="bi bi-star"></i> Featured Blogs</h3>
+			<div class="list-group outline-primary">
+				<a href="#blog3" class="list-group-item list-group-item-action">Blog Post 3</a>
+				<a href="#blog2" class="list-group-item list-group-item-action">Blog Post 2</a>
+				<a href="#blog1" class="list-group-item list-group-item-action">Blog Post 1</a>
+			</div>
+			<h3><i class="bi bi-hand-thumbs-up"></i> Popular Blogs</h3>
+			<div class="list-group">
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 5</a>
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 4</a>
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 6</a>
+			</div>
+			<h3><i class="bi bi-lightning"></i> Latest Blogs</h3>
+			<div class="list-group">
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 9</a>
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 8</a>
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 7</a>
+			</div>
+		</aside>
+	</main>
+	<footer class="bg-body-tertiary">
+		<p>&copy; 2024 My Blog</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
