@@ -1,7 +1,7 @@
 # Personal Blog Website
 This is a front-end template for a personal blog website. Feel free to either use the template or contribute towards the repository. 
 
-## Technologies Used:
+## ⚒️ Technologies Used:
 <ul>
 <li>HTML5</li>
 <li>CSS3</li>
@@ -10,8 +10,32 @@ This is a front-end template for a personal blog website. Feel free to either us
 <li>BootStrap/BootStrap Icons</li>
 </ul>
 
+## :open_file_folder: Folder Structure:
 
-## Contributors:
+```bash
+├── index.html  
+├── script.js        
+├── README.md    
+├── assets
+│   ├── blogimg1.jpg   
+│   ├── blogimg2.jpg 
+│   ├── blogimg3.jpg
+├── src
+│   ├── content.css
+│   ├── content-grid.css
+│   ├── core.css
+│   ├── footer.css
+│   ├── header.css
+│   ├── main.css
+│   ├── responsive.css
+│   ├── sidebar.css
+│   ├── experience
+```
+
+## 🌐 Live Demo:
+For a live demo of the blog website, <a href="https://algorithmicprogrammer.github.io/personal-blog-website/">click here</a>.
+
+## 👥 Contributors:
 <ul>
 <li><a href="https://github.com/mnosov622">Maxim Nosov</a></li>
 <li><a href="https://github.com/algorithmicprogrammer">Algorithmic Programmer</a></li>
@@ -21,13 +45,13 @@ This is a front-end template for a personal blog website. Feel free to either us
 <b>Affiliation:</b> <a href="https://www.udacity.com/">Udacity</a> Nanodegree Program
 </ul>
 
-## For Help or Questions Specific to This Project:
+## ❓ For Help or Questions Specific to This Project:
 <ul>
 <li><b>Udacity Students</b>: Please contact Instructor <a href="https://github.com/mnosov622">Maxim Nosov</a>. </li>
 <li><b>General Public</b>: Please contact me (<a href="https://github.com/algorithmicprogrammer">Algorithmic Programmer</a>).</li>
 </ul>
 
-## Guide for Udacity Students:
+## 📖 Guide for Udacity Students:
 <ul>
 <li>CSS grid is used to keep the blog post cards to the left and the sidebar to the right.</li>
 <li>The blog post items are kept in the container using flexbox. Flexbox is also used in the header and sidebar.</li>
