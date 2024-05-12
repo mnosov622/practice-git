@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>My Blog</title>
+	<link rel="stylesheet" href="styles/core.css" />
+</head>
+
+<body>
+   <header class="bg-body-tertiary">
+	   <a class="navbar-brand" href="#"><h1>My Blog</h1></a>
+	<nav class="main-nav navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<li class="nav-item"><a class="nav-link" href="#blog1"><i class="bi bi-pencil-square"></i> Blog Post 1</a></li>
+			<li class="nav-item"><a class="nav-link" href="#blog2"><i class="bi bi-pencil-square"></i> Blog Post 2</a></li>
+			<li class="nav-item"><a class="nav-link" href="#blog3"><i class="bi bi-pencil-square"></i> Blog Post 3</a></li>
+		</ul>
+			<form class="d-flex" role="search">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-primary">Search</button>
+			</form>
+			</div>
+				</div>
+	</nav>
+
+
+  </header>
+
+   <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-tertiary">
+      <div class="col-lg-6 px-0">
+		  <h1 class="display-4">Tending: Blog Post 5</h1>
+		  <p class="lead my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id augue vel ex maximus consequat.</p>
+		  <p class="lead mb-0">Read More</p>
+	  </div>
+   </div>
+
+	<main class="grid-container">
+		<section id="main-content">
+			<article class="card" id="blog1">
+				<img src="assets/blog1img.jpg" class="card-img-top" alt="caption"/>
+				<div class="card-body">
+				<h2>Blog Post 1</h2>
+				<p class="card-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id augue vel ex maximus consequat. Nullam scelerisque vestibulum malesuada.
+				</p>
+					<a href="#" class="btn btn-primary">Read More</a>
+				</div>
+			</article>
+			<article class="card" id="blog2">
+				<img src="assets/blog2img.jpg" class="card-img-top" alt="caption"/>
+				<div class="card-body">
+					<h2>Blog Post 2</h2>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id augue vel ex maximus consequat. Nullam scelerisque vestibulum malesuada.
+					</p>
+					<a href="#" class="btn btn-primary">Read More</a>
+				</div>
+			</article>
+			<article class="card" id="blog3">
+				<img src="assets/blog3img.jpg" class="card-img-top" alt="caption"/>
+				<div class="card-body">
+					<h2>Blog Post 3</h2>
+					<p class="card-text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id augue vel ex maximus consequat. Nullam scelerisque vestibulum malesuada.
+					</p>
+					<a href="#" class="btn btn-primary">Read More</a>
+				</div>
+			</article>
+		</section>
+		<aside id="side-content">
+			<div class="p-4 mb-3 bg-body-tertiary rounded">
+				<h3>About</h3>
+				<p class="mb-0">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id augue vel ex maximus consequat.
+				</p>
+			</div>
+			<div>
+				<h3><i class="bi bi-star"></i> Featured Posts</h3>
+				<ul class="list-unstyled">
+					<li>
+						<a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#blog3">
+							<img src="./assets/blog3img.jpg" alt="blog3img" height="96"/>
+							<div class="col-lg-8">
+                               <h6>Blog Post 3</h6>
+							   <small class="text-body-secondary">April 19, 2024</small>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#blog2">
+							<img src="./assets/blog2img.jpg" alt="blog2img" height="96"/>
+							<div class="col-lg-8">
+								<h6>Blog Post 2</h6>
+								<small class="text-body-secondary">March 21, 2024</small>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#blog1">
+							<img src="./assets/blog1img.jpg" alt="blog1img" height="96"/>
+							<div class="col-lg-8">
+								<h6>Blog Post 1</h6>
+								<small class="text-body-secondary">February 9, 2024</small>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+
+
+
+			<h3><i class="bi bi-hand-thumbs-up"></i> Popular Blogs</h3>
+			<div class="list-group">
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 5</a>
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 4</a>
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 6</a>
+			</div>
+			<h3><i class="bi bi-lightning"></i> Latest Blogs</h3>
+			<div class="list-group">
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 9</a>
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 8</a>
+				<a href="#" class="list-group-item list-group-item-action">Blog Post 7</a>
+			</div>
+		</aside>
+	</main>
+	<footer class="bg-body-tertiary">
+		<p>&copy; 2024 My Blog</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
