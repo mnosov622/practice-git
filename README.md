@@ -15,7 +15,8 @@ This is a front-end template for a personal blog website. Feel free to either us
 ```bash
 ├── index.html  
 ├── script.js        
-├── README.md    
+├── README.md
+├── LICENSE    
 ├── assets
 │   ├── blogimg1.jpg   
 │   ├── blogimg2.jpg 
