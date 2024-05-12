@@ -4,3 +4,8 @@
     min-width: 15rem;
     max-width: 33%;
 }
+
+.sidebar-img {
+    height: 50px;
+    width: 70px;
+}
