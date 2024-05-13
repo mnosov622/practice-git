@@ -1,5 +1,12 @@
-@media(max-width: 800px){
-    #main-content {
-        flex-direction: column;
+@media only-screen and (max-width: 768px) {
+     #main-content{
+        width: 100%;
+     }
+}
+
+@media only-screen and (max-width: 768px) {
+    #side-content{
+        width: 100%;
     }
 }
+
