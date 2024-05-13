@@ -18,6 +18,12 @@
     width: 300px;
     height: 200px;
 }
+.travel-label {
+    color:red;
+}
+.nature-label {
+    color: green;
+}
 #modal {
     position: fixed;
     top: 0;
