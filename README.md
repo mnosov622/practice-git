@@ -44,7 +44,7 @@ For a live demo of the blog website, <a href="https://algorithmicprogrammer.gith
 <li><a href="https://github.com/ahmedroberts">Ahmed Roberts</a></li>
 <li><a href="https://github.com/isissa01">Issa Issa</a></li>
 
-<b>Affiliation:</b> <a href="https://www.udacity.com/">Udacity</a> Nanodegree Program
+<b>Affiliation:</b> <a href="https://www.udacity.com/">Udacity</a> Front End Web Developer Nanodegree Program Spring 2024
 </ul>
 
 ## ❓ For Help or Questions Specific to This Project:
