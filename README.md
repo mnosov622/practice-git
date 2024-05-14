@@ -12,15 +12,14 @@ This is a front-end template for a personal blog website. Feel free to either us
 
 ## :open_file_folder: Folder Structure:
 
-```bash
-├── index.html  
-├── script.js        
-├── README.md
-├── LICENSE    
+```bash  
 ├── assets
 │   ├── blogimg1.jpg   
 │   ├── blogimg2.jpg 
 │   ├── blogimg3.jpg
+│   ├── topimg.jpg
+├── scripts
+│   ├── script.js  
 ├── src
 │   ├── content.css
 │   ├── content-grid.css
@@ -30,7 +29,9 @@ This is a front-end template for a personal blog website. Feel free to either us
 │   ├── main.css
 │   ├── responsive.css
 │   ├── sidebar.css
-│   ├── experience
+├── index.html          
+├── LICENSE
+├── README.md
 ```
 
 ## 🌐 Live Demo:
