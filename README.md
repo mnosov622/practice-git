@@ -1,4 +1,4 @@
-# Personal Blog Website
+# ✏️ Personal Blog Website
 This is a front-end template for a personal blog website. Feel free to either use the template or contribute towards the repository. 
 
 ## ⚒️ Technologies Used:
@@ -10,25 +10,23 @@ This is a front-end template for a personal blog website. Feel free to either us
 <li>BootStrap/BootStrap Icons</li>
 </ul>
 
-## :open_file_folder: Folder Structure:
+## 📁 Folder Structure:
 
 ```bash  
 ├── assets
-│   ├── blogimg1.jpg   
-│   ├── blogimg2.jpg 
-│   ├── blogimg3.jpg
+│   ├── blog1img.jpg   
+│   ├── blog2img.jpg 
+│   ├── blog3img.jpg
+│   ├── blog4img.jpg
+│   ├── blog6img.jpg
 │   ├── topimg.jpg
 ├── scripts
 │   ├── script.js  
 ├── src
 │   ├── content.css
-│   ├── content-grid.css
 │   ├── core.css
-│   ├── footer.css
-│   ├── header.css
 │   ├── main.css
 │   ├── responsive.css
-│   ├── sidebar.css
 ├── index.html          
 ├── LICENSE
 ├── README.md
@@ -44,7 +42,7 @@ For a live demo of the blog website, <a href="https://algorithmicprogrammer.gith
 <li><a href="https://github.com/ahmedroberts">Ahmed Roberts</a></li>
 <li><a href="https://github.com/isissa01">Issa Issa</a></li>
 
-<b>Affiliation:</b> <a href="https://www.udacity.com/">Udacity</a> Front End Web Developer Nanodegree Program (Spring 2024)
+<b>Affiliation:</b> <a href="https://www.udacity.com/">Udacity</a> Nanodegree Program (Spring 2024)
 </ul>
 
 ## ❓ For Help or Questions Specific to This Project:
@@ -53,12 +51,4 @@ For a live demo of the blog website, <a href="https://algorithmicprogrammer.gith
 <li><b>General Public</b>: Please contact me (<a href="https://github.com/algorithmicprogrammer">Algorithmic Programmer</a>).</li>
 </ul>
 
-## 📖 Guide for Udacity Students:
-<ul>
-<li>CSS grid is used to keep the blog post cards to the left and the sidebar to the right.</li>
-<li>The blog post items are kept in the container using flexbox. Flexbox is also used in the header and sidebar.</li>
-<li>All stylesheets are imported into <code>core.css</code>. <code>core.css</code> is the only stylesheet linked in <code>index.html</code>.</li>
-<li>All media queries are located in <code>responsive.css</code></li>
-<li>JavaScript is used to create the modal that pops up upon clicking the "Read More" buttons in the blog post cards.</li>
-<li>BootStrap components used are navbar, list group, card.</li>
-</ul>
+
