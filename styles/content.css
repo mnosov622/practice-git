@@ -46,6 +46,12 @@
 .nature-label {
     color: green;
 }
+.politics-label {
+    color: purple;
+}
+.sports-label {
+    color: orange;
+}
 #modal {
     position: fixed;
     top: 0;
