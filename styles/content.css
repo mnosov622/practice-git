@@ -40,17 +40,17 @@
 }
 */
 
-.travel-label {
-    color:red;
+.travel {
+    background-color:red;
 }
-.nature-label {
-    color: green;
+.nature {
+    background-color: green;
 }
-.politics-label {
-    color: purple;
+.politics {
+    background-color: purple;
 }
-.sports-label {
-    color: orange;
+.sports {
+    background-color: orange;
 }
 #modal {
     position: fixed;
