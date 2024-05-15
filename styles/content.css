@@ -2,6 +2,18 @@
     background-image: url("../assets/topimg.jpg");
 }
 
+.card-img-top {
+    width:600px;
+    height:250px;
+}
+
+.sidebar-img {
+    height: 50px;
+    width: 70px;
+}
+
+
+
 /*
 #main-content{
     display: flex;
