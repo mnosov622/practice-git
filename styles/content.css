@@ -1,23 +1,31 @@
-#main-content{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-#main-content > section {
-    margin: 20px;
-    padding: 20px;
+.top-img {
+    background-image: url("../assets/topimg.jpg");
 }
 
-.card {
-    width: 400px;
-    height: 300px;
-    margin: 20px;
-}
 .card-img-top {
-    width: 300px;
-    height: 200px;
+    width:600px;
+    height:250px;
 }
+
+.travel {
+    background-color:red;
+}
+.nature {
+    background-color: green;
+}
+.politics {
+    background-color: purple;
+}
+.sports {
+    background-color: orange;
+}
+.music {
+    background-color:pink;
+}
+.movies {
+    background-color:blue;
+}
+
 #modal {
     position: fixed;
     top: 0;
