@@ -5995,8 +5995,8 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius-2xl) !important;
 }
 
-.rounded-circle {
-  border-radius: 50% !important;
+button.btn.btn-primary.rounded-circle {
+  border-radius: 20% !important;
 }
 
 .rounded-pill {
