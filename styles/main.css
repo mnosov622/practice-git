@@ -5724,6 +5724,7 @@ textarea.form-control-lg {
 }
 
 .text-center {
+  padding-top: 2%;
   text-align: center !important;
 }
 
